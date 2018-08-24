@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-  
+  <link href="assets/main.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   </head>
   <body>
     <nav>
-      <h2>Luthfi Fachriza Sandi</h2>
+      <h3>Luthfi Fachriza Sandi</h3>
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contacts</li>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contacts</a></li>
       </ul>
     </nav>
     <header id="hero">
-      <h2>Front-end Web Developer</h2>
-      <h3>Building and designing websites from scratch.</h3>
+      <h1>Front-end Web Developer</h1>
+      <h4>Building and designing websites from scratch.</h4>
+      <div id="balls">
+        <div class="ball" id="b1"></div>
+        <div class="ball" id="b2"></div>
+        <div class="ball" id="b3"></div>
+      </div>
     </header>
     <main>
-      <section id="about">
-        <p>I am a novice website builder from Indonesia. Currently studying front-end web design.</p>
-      </section>
       <section id="skills">
-        <header>
-          <h2>My Skillset</h2>
-        </header>
-        <main>
+        <h2>My Skillset</h2>
+        <div id="skillset">
           <div class="skills-content" id="front-end">
-             <h4>Front-End</h4>
+             <h4>Front-end Technology</h4>
             <ul>
-              <li>HTML</li>
-              <li>CSS</li>
+              <li>HTML<em> (certified)</em></li>
+              <li>CSS<em> (certified)</em></li>
             </ul>
+            <a>view certificate..</a>
+            <i class="fas fa-window-maximize"></i>
           </div>
           <div class="skills-content" id="graphic-design">
             <h4>Graphic Design</h4>
@@ -40,6 +43,7 @@
               <li>Logo design</li>
               <li>Poster design</li>
             </ul>
+            <i class="fas fa-fill-drip"></i>
           </div>
           <div class="skills-content" id="other">
             <h4>Others</h4>
@@ -47,28 +51,34 @@
               <li>C</li>
               <li>Java</li>
             </ul>
+            <i class="fas fa-code"></i>
           </div>
-        </main>
+        </div>
       </section>
       <section id="projects">
-         <header>
+    
           <h2>What I've done so far</h2>
-        </header>
-        <main>
-          <div class="projects-content" id="taysir">
-            <h4>Ma'had at-Taysir</h4>
+      
+          <div id="projectset">
+            <div class="projects-content" id="tribute">
+              <h4>Tribute Page</h4>
+            </div>
+            <div class="projects-content" id="taysir">
+              <h4>Ma'had at-Taysir</h4>
+            </div>
+            <div class="projects-content" id="personal">
+              <h4>Personal Portfolio</h4>
+            </div>
+            <div class="projects-content" id="python">
+              <h4>Python Documentation</h4>
+            </div>
           </div>
-          <div class="projects-content" id="personal">
-            <h4>Personal Portfolio</h4>
-          </div>
-          <div class="projects-content" id="python">
-            <h4>Python Documentation</h4>
-          </div>
-        </main> 
+       
       </section>
     </main>
     <footer id ="contact">
-      
+      <a href="https//github.com/lfreeza" target="_blank"><i class="fab fa-github-square"></i>
+      </a>
     </footer>
   </body>
 </html>
