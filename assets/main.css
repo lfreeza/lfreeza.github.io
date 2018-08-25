@@ -202,7 +202,7 @@ footer > a{
   padding: 0 30px;
 }
 
-@media(max-width:570px){
+@media(max-width:800px){
   nav h3{
     font-size: 0.7em;
 }
