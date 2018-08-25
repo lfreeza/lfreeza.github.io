@@ -185,7 +185,7 @@ main{
 }
 
 .projects-content > img{
-  width: auto;
+  max-width: auto;
   max-height: 100%;
 }
 
