@@ -184,7 +184,7 @@ main{
   text-align: center;
 }
 
-.projects-content  img{
+.projects-content a img{
   max-width: 100%;
   max-height: 100%;
 }
