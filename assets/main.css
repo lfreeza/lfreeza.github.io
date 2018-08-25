@@ -184,8 +184,8 @@ main{
   text-align: center;
 }
 
-.projects-content a{
-  max-width: auto;
+.projects-content > img{
+  width: 100%;
   max-height: 100%;
 }
 
